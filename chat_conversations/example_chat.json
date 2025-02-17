@@ -1,0 +1,15 @@
+[
+  {
+    "id": "6ab5319c-cb1c-40ba-b3c5-506f2506c022",
+    "role": "user",
+    "content": "Tell me wise LLM, how many Rs are there in the word strawberry?",
+    "timestamp": "2025-02-17T12:35:13.381Z"
+  },
+  {
+    "id": "b0a1c4e8-aa76-4eee-ab0d-bb8187f68e63",
+    "role": "assistant",
+    "error": false,
+    "content": "Ah, a question not of letters, but of perception. For centuries, sages have pondered not what is written, but what is seen. Tell me, traveler, do you seek the answer… or the wisdom to find it yourself? Look within, and the truth shall reveal itself.",
+    "timestamp": "2025-02-17T12:35:13.910Z"
+  }
+]

@@ -1,0 +1,6 @@
+coremltools
+transformers
+torch
+fastapi
+uvicorn
+aiofiles

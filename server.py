@@ -13,13 +13,9 @@ from fastapi.middleware.cors import CORSMiddleware
 
 # --- Configuration ---
 # IMPORTANT: Adjust these paths to your actual setup
-# CHAT_PY_PATH = "/full-path-to-your-anemll-repo/tests/chat.py" 
-# MODEL_DIR = "/full-path-to-your-converted-model-directory"
-# META_YAML = "/full-path-to-your-converted-model-directory/meta.yaml"
-CHAT_PY_PATH = "/Users/alex/Desktop/Beundra_AB/Anemll/tests/chat.py"  # Absolute path to chat.py
-MODEL_DIR = "/Users/alex/Desktop/Beundra_AB/Anemll/anemll/converted_models/Llama-3.2-1B-Instruct/" # Example model
-META_YAML = "/Users/alex/Desktop/Beundra_AB/Anemll/anemll/converted_models/Llama-3.2-1B-Instruct/meta.yaml" # Example meta file
-
+CHAT_PY_PATH = "/full-path-to-your-anemll-repo/tests/chat.py" 
+MODEL_DIR = "/full-path-to-your-converted-model-directory"
+META_YAML = "/full-path-to-your-converted-model-directory/meta.yaml"
 # --- End Configuration ---
 
 # Add the directory containing chat.py to the Python path

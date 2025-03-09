@@ -1,5 +1,8 @@
 # Anemll Backend+WebUI
 
+> [!NOTE]
+> **This project is outdated and has been replaced by [anemll-server](https://github.com/alexgusevski/anemll-server), which is OpenAI API compatible, and lets you serve anemll models to any frontend. It also has more features like chat history, less GIL issues and more.**
+
 ### This is a hobby project that solves two issues of the original Anemll project in its current version (0.1.2):
 - There is no API to serve the model locally (can only be used via CLI)
 - Consequently there is no way to connect a frontend to the model
@@ -7,6 +10,7 @@
 ### This project provides a FastAPI backend that sits completely on top of the original Anemll repo with no modifications to the original code. It uses the Anemll chat.py file to serve the model with a streaming /chat endpoint, and a lightweight Vite/React frontend that has basic chat and conversation history management in the frontend, although the backend does not support multi-turn conversations yet.
 
 
+This repo does not have OpenAI API compatible endpoints, and therefore only works in this provided frontend with limited features. See the note at the top.
 
 ## Prerequisites
 
@@ -99,4 +103,5 @@ Check the console for what port the frontend is running on and make sure the fro
 MIT - Do whatever you want with this.
 
 ## Links and contact
+- 🤖 Unofficial Discord repo for Anemll related discussions: https://discord.gg/xgtQDDBGcM
 - 📱 My X: [@alexgusevski](https://x.com/alexgusevski)
